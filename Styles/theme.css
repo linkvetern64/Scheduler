@@ -1,0 +1,28 @@
+.theme
+{
+    width: 12.5%;
+    height: 60px;
+    margin: 5px;
+    float: left;
+	margin-left:10px;
+}
+
+#themeList
+{
+	width:90%;
+	height:70;
+	border:thin solid grey;
+	border-radius:20px;
+	 
+}
+
+#themeWrapper
+{
+	width:100%;
+	height:105px;
+	position:absolute;
+	bottom: 0;
+	float:center;
+	margin-bottom:60px;
+	text-align:center;
+}

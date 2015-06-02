@@ -1,0 +1,323 @@
+body
+{
+         margin: 0;
+         padding: 0;
+         font: 12px Arial, Helvetica, sans-serif;
+         background: #f1f1f1;
+}
+
+#searchWrapper
+{
+	width:70%;
+	height:30px;
+	float:right;
+	display:inline-block;
+}
+
+#searchResults
+{
+	background-color:inherit;
+	width:inherit;
+	margin-top:-7px;
+	height:70.5%; 
+}
+
+#rightWrap
+{
+	width:200px;
+	height:300px;
+	background-color:auto;
+	border:thin dotted black;
+	float:right;
+	margin-right:10px;
+}
+
+#title
+{
+	font-size:20px;
+	text-align:center;
+	margin: 0 auto;
+	float: center;
+	z-index:1;
+	
+}
+#content
+{
+	float:left;
+	width:250px;
+	height:200px;
+	background-color:auto;
+	text-align:right;
+}
+#apptTypes
+{
+	height:40px;
+	width:200px;	 
+}
+#welcome
+{
+	font-size:10px;
+	float:left;
+	margin: 0 auto;
+	
+}
+#calendarWrap
+{
+    
+	height:595px;
+	width:500px;
+	outline: black solid thin;
+	background-color:#FFFDD0;
+	float:center;
+	margin: 0 auto;
+	
+}
+#calendarBottom
+{
+	height:54px;
+	width:500px;
+	float:bottom;
+	outline:black solid thin;
+	text-align:center;
+}
+#appointmentCalendar
+{
+	width:500px;
+	height:541px;
+	outline:#000000 solid thin;
+	float:center;
+	margin: 0 auto;
+}
+
+#availabilityWrapper
+{
+	width:100%;
+	height:20px;
+	background-color:inherit;
+}
+
+#calendarTopper
+{
+	width:500px;
+	height:50px;
+	background-color:#FFFDD0;
+}
+#calendarTimes
+{
+	width:100px;
+	height:380px;
+	float:bottom;
+	background-color:#ADD8E6;
+}
+#timeBlock
+{
+	outline:#000000 solid thin;
+	height:34px;
+	width:100px;
+	text-align:center;
+	
+}
+
+#timeWrap
+{
+	background-color:inherit;
+	height:35px;
+	width:100%;
+	float:left;
+	
+
+}
+#idInfo
+{
+	width:80%;
+	margin: 0 auto;
+	position:auto;
+	height:100%;
+	float:right;
+	background-color:inherit;
+	border:thin black solid;
+}
+
+#hours
+{
+	width:19.2%;
+	float:left;
+	height:100%;
+	
+	border:thin black solid;
+	text-align:center;
+	background-color:#ADD8E6;
+}
+
+#dashboard{
+	 
+	width:100%;
+	height:85%;
+	bottom:0;
+	position:absolute;
+}
+
+#timeIDBlock{
+	width:100%;
+	height:380px;
+	background-color:white;
+	float:left;
+	margin:0 auto;
+}
+#pad
+{
+	width:5px;
+	height:100%;
+	background-color:inherit;
+	float:left;
+}
+#timeIDBlocks
+{
+	outline:#000000 solid thin;
+	height:35px;
+	width:30%;
+	text-align:left;
+	float:right;
+	margin: 0 auto;
+	position:absolute;
+}
+/**
+
+		THIS PART AND ABOVE IS FOR THE CALENDAR
+
+**/
+#login
+{
+
+height:70%;
+width:60%;
+background-color:auto;
+display:inline-block;
+margin: 0 auto;
+}
+#buffer
+{
+height:30%;
+width:100%;
+background-color:auto;
+margin: 0 auto;
+}
+
+#header
+{
+	background:auto;
+	height:100px;
+	width:80%;
+	float:center;
+	margin: 0 auto;
+}
+#scheduleMaker
+{
+	outline: #000000 dotted thin;
+	background-color:auto;
+	width:300px;
+	height:203px;
+	float:left;
+	 
+}
+#footer
+{
+	width:200px;
+	height:100px;
+	float:bottom;
+	 
+}
+#addAppointment
+{
+	outline: #000000 dotted thin;
+	background-color:auto;
+	width:300px;
+	height:800px;
+	float:left;
+	margin-top:15px;
+}
+
+#dateRight
+{
+	float:right;
+}
+
+#centerButton
+{
+	margin: 0 auto;
+}
+
+#advisorTabs
+{
+	background-color:Yellow;
+	height:100px;
+	width:100%;
+	float:center;
+	margin: 0 auto;
+}
+#advisorWrapper
+{
+	background-color:Black;
+	height:600px;
+	width:50%;
+	float:center;
+	margin: 0 auto;
+	
+}
+
+
+#advisorTabPage
+{
+	background-color:Red;
+	height:500px;
+	width: 50%;
+	float:center;
+	margin: 0 auto;
+
+}
+/*This wraps the adivsors appointment and availability */
+#wrapper{
+	height:auto;
+	width:300px;
+	float:left;
+	background-color:auto;
+	padding-left:10px;
+	position: absolute;
+}
+
+#loginBox
+{
+border: 2px solid #a1a1a1;
+padding: 10px 40px; 
+background: #dddddd;
+width: 300px;
+border-radius: 25px;
+display:inline-block;
+float:right;
+}
+
+hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}

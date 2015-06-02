@@ -1,0 +1,203 @@
+body
+{
+         margin: 0;
+         padding: 0;
+         font: 12px Arial, Helvetica, sans-serif;
+         
+}
+#calendarWrap
+{
+	height:65%;
+	width:30%;
+	outline: black solid thin;
+ 
+	float:center;
+	margin: 0 auto;
+}
+#calendarBottom
+{
+	height:5%;
+	width:100%;
+	float:bottom;
+	outline:black solid thin;
+	text-align:center;
+}
+#appointmentCalendar
+{
+	width:100%;
+	height:95%;
+	outline:#000000 solid thin;
+	float:center;
+	margin: 0 auto;
+}
+
+#calendarTopper
+{
+	width:100%;
+	height:20%;
+	 
+}
+#calendarTimes
+{
+	width:20%;
+	height:80%;
+	float:bottom;
+	 
+}
+#timeBlock
+{
+	outline:#000000 solid thin;
+	height:7.14%;
+	width:100%;
+	text-align:center;
+	
+}
+#timeIDBlock{
+	width:80%;
+	height:80%;
+	background-color:white;
+	float:right;
+	padding-left:-20px;
+}
+#timeIDBlocks
+{
+	outline:#000000 solid thin;
+	height:7.14%;
+	width:100%;
+	text-align:left;
+}
+/**
+
+		THIS PART AND ABOVE IS FOR THE CALENDAR
+
+**/
+#login
+{
+
+height:70%;
+width:60%;
+background-color:auto;
+display:inline-block;
+margin: 0 auto;
+}
+#buffer
+{
+height:30%;
+width:100%;
+background-color:auto;
+margin: 0 auto;
+}
+
+#header
+{
+	background:auto;
+	height:100px;
+	width:80%;
+	float:center;
+	margin: 0 auto;
+}
+#scheduleMaker
+{
+	outline: #000000 dotted thin;
+	background-color:auto;
+	width:300px;
+	height:147px;
+	float:left;
+	 
+}
+#footer
+{
+	width:200px;
+	height:100px;
+	float:bottom;
+	 
+}
+#addAppointment
+{
+	outline: #000000 dotted thin;
+	background-color:auto;
+	width:300px;
+	height:205px;
+	float:left;
+	
+}
+
+#dateRight
+{
+	float:right;
+}
+
+#centerButton
+{
+	margin: 0 auto;
+}
+
+#advisorTabs
+{
+	background-color:Yellow;
+	height:100px;
+	width:100%;
+	float:center;
+	margin: 0 auto;
+}
+#advisorWrapper
+{
+	background-color:Black;
+	height:600px;
+	width:50%;
+	float:center;
+	margin: 0 auto;
+}
+#advisorTabPage
+{
+	background-color:Red;
+	height:500px;
+	width: 50%;
+	float:center;
+	margin: 0 auto;
+
+}
+#wrapper{
+	height:600px;
+	width:300px;
+	float:left;
+
+
+}
+
+#loginBox
+{
+border: 2px solid #a1a1a1;
+padding: 10px 40px; 
+background: #dddddd;
+width: 300px;
+border-radius: 25px;
+display:inline-block;
+float:right;
+}
+
+hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}

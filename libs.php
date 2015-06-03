@@ -55,7 +55,7 @@ function getAdvisorByName($name){
 	$conn = connect();
 		 
 	//Gathers the private key to validate the login user
-	$result = mysql_query("SELECT * FROM  `Advisors` WHERE Name = '" . $name . "'");
+	$result = mysql_query("SELECT * FROM  `SchedulerLogin` WHERE Name = '" . $name . "'");
 	
 	disconnect($conn);
 	return mysql_fetch_array($result);

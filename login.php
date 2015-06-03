@@ -10,15 +10,16 @@ $Password = $_POST["password"];
 	$user_data = getAdvisorByName($UserID);
 	$username = $user_data["Name"];
 	$private_key = $user_data["Password"];
+	
 	if($private_key == $Password && $UserID == $username){
 		//Redirects the user to the CSEE Advising page
 		 
 		$_SESSION["auth"] = true;
 		$_SESSION["id"] = $user_data["id"];
-		header("Location:../advisors/granted.php");
+		header("Location:granted.php");
 	}
 	else{
-		header("Location:../advisors/logout.php");
-		echo("Entry Denied");
+		//entry denied
+		header("Location:logout.php");
 	} 
 

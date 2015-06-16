@@ -2,7 +2,7 @@
 session_start();
 require_once("libs.php");
 
-$UserID = $_POST["name"];
+$UserID = $_POST['name'];
 $Password = $_POST["password"];
 
 //Establishes connection to PHPMyadmin which contains the password database

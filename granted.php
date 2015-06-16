@@ -100,6 +100,9 @@ disconnect($conn);
 <div class="alerts error" id="alert"><img src="Pictures/error.png" width="40px" height="40px">error completing function</div>
 -->
 <h5>Welcome back, <?php echo($firstName); ?><a href="logout.php"> logout</a></h5>
+ <?php
+	echo("Hello");
  
+ ?>
 </body>
 </html>
